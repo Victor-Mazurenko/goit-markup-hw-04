@@ -322,6 +322,11 @@ ul {
   padding: 30px 0;
 }
 
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
 /*Футер*/
 .footer {
   background-color: var(--back-color);
