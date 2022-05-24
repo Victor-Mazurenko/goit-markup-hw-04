@@ -124,25 +124,14 @@ ul {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
-  fill: var(--second-text-color);
-}
-
-.icon-mail:hover {
-  fill: var(--decor-color);
 }
 
 .icon-tell {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
-  fill: var(--second-text-color);
-  padding: auto;
-}
-
-.icon-tell:hover {
-  fill: var(--decor-color);
 }
 
 .navigation {
@@ -656,4 +645,9 @@ ul {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+
+.flex .list:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
